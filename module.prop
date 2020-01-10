@@ -1,0 +1,7 @@
+id=73sydney.sqlite3
+name=SQLite3 Universal Binaries
+version=v1.0
+versionCode=1
+author=73sydney (Inspired by Olivier Pantale & aarch64 module)
+description=Installs an sqlite3 v4.1 binary to either /system/xbin OR /system/bin depending on existing system paths
+minMagisk=1500
