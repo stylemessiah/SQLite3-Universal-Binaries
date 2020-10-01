@@ -191,7 +191,7 @@ on_install() {
 			;;
 		esac;
 	ui_print "Using architecture: $arch";
-	ui_print sqlite3-$arch
+	mkdir -p $MODPATH/system/xbin
 	cp -af $TMPDIR/sqlite3-$arch $MODPATH/system/xbin/sqlite3 >/dev/null 2>&1
 	fi 	
 	set_bindir
